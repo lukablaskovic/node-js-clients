@@ -3,7 +3,7 @@ var statusText = document.getElementById("statusText");
 form.onsubmit = async (e) => {
   e.preventDefault();
   const form = e.currentTarget;
-  const url = "http://192.168.5.13:8080/api/posts";
+  const url = "ENTER_URL_HERE";
   try {
     const formData = new FormData(form);
     const response = await fetch(url, {
